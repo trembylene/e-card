@@ -1,0 +1,78 @@
+body, html {
+  background-image: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://image.ibb.co/d2DxW5/Network.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-size: 26px;
+  padding: 30px 0px 15px 0px;
+}
+
+h6 {
+  font-size: 18px;
+  padding: 8px 0px 15px 0px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.center-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px 40px 35px 40px  ;
+  max-width: 484px;
+  height: auto;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.avatar {
+  background-image: url("https://image.ibb.co/cAfBr5/Edmund.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid darkgrey;
+  margin: auto;
+}
+
+.description {
+  font-family: Source Sans Pro, Helvatica, sans-serif;
+  color: #313f47;
+  line-height: 2;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: solid 1px #c8cccf;
+  margin: auto;
+  position: relative;
+}
+
+a .icon {
+  color: #3999ac;
+  opacity: 0.5;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+}
+
+
+a .icon:hover {
+  opacity: 1;
+}
+
